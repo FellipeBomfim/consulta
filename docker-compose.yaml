@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: .
+    container_name: consulta
+    ports:
+      - '5010:5010'
