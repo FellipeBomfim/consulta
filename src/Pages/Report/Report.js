@@ -1,5 +1,4 @@
 import { TableContainer } from "@mui/material";
-import { Styles } from "./Styles";
 import { Datatable } from "../../Components/Datatable/Datatable";
 import { getData } from "../../Services/Api.js";
 import data from "../../Services/data.json";
@@ -11,7 +10,7 @@ export const Report = () => {
     //const data = getData("number");
 
     return(
-        <TableContainer style={Styles.main}>
+        <TableContainer>
             <Cards data={data}/>
             <Datatable data={data}/>
         </TableContainer>

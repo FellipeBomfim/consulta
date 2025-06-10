@@ -13,14 +13,14 @@ export const SearchBar = () => {
         <div style={Styles.main}>
             <form style={Styles.form} noValidate autoComplete='off'>
                 <TextField
+                    style={Styles.searchBar}
                     label="Nº do Processo"
                     variant="outlined"
-                    style={Styles.searchBar}
                     onChange={handleTextInputChange}
                 />
                 <Button
-                    variant="contained"
                     style={Styles.button}
+                    variant="contained"
                     href={"report?number=" + test}
                 >
                     BUSCAR

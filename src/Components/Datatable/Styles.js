@@ -1,5 +1,6 @@
 export const Styles = {
     main: {
+        width: "100vw",
         height: "auto",
         display: "flex",
         flexDirection: "column",
@@ -10,13 +11,13 @@ export const Styles = {
 
     datagrid: {
         backgroundColor: "#ffffff",
-        width: "50vw",
+        width: "60vw",
         borderRadius: 15,
         padding: "5px"
     },
 
     cell: {
-        width: "30vw",
+        width: "25%",
         height: "4.5vh"
     },
 

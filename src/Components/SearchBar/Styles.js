@@ -1,7 +1,8 @@
 export const Styles = {
     main: {
-        width: "auto",
-        height: "80vh",
+        backgroundColor: "#ffffff",
+        width: "100vw",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -9,6 +10,7 @@ export const Styles = {
     },
 
     form: {
+        height: "12.5vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
@@ -16,12 +18,10 @@ export const Styles = {
     },
 
     searchBar: {
-        width: "70vw",
-        margin: "0 0 5vh 0"
+        width: "70vw"
     },
 
     button: {
-        width: "5vw",
-        padding: "auto 5vw auto 5vw"
+        width: "5vw"
     }
 }

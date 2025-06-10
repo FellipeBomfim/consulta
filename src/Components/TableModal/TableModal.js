@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TablePagination, TableRow, TableSortLabel } from "@mui/material";
+import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableSortLabel } from "@mui/material";
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import { Styles } from "./Styles";
@@ -60,7 +60,7 @@ export const TableModal = ({ data = [] }) => {
       <Button
         style={Styles.button}
         variant="contained"
-        onClick={data.length != 0 ? handleOpen : null}
+        onClick={data.length !== 0 ? handleOpen : null}
       >
         {data.length}
       </Button>

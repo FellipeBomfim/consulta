@@ -1,38 +1,20 @@
-import { alignItems, fontWeight, justifyContent, textAlign } from "@mui/system";
-
 export const Styles = {
     main: {
+        width: "100vw",
+        height: "auto",
         display: "flex",
         flexWrap: "wrap",
-        width: "60vw",
-        height: "37vh",
-        margin: "5vh auto 5vh auto",
-        justifyContent: "space-between",
-        alignContent: "space-between"
-    },
-
-    card: {
-        backgroundColor: "white",
-        display: "flex",
-        width: "24%",
-        height: "48%",
         justifyContent: "center",
+        alignContent: "center",
+        boxSizing: "border-box",
+    },
+
+    box: {
+        backgroundColor: "#ffffff",
+        width: "60vw",
+        margin: "3vh 0 3vh 0",
+        padding: "2vw",
+        boxSizing: "border-box",
         borderRadius: 15
-    },
-
-    text: {
-        height: "80%",
-        width: "60%"
-    },
-
-    title: {
-        margin: "1.5vh 0 1.5vh 0"
-    },
-
-    description: {
-        width: "80%",
-        textAlign: "left",
-        fontWeight: 400,
-        margin: 0
     }
 }
